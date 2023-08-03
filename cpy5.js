@@ -7,7 +7,7 @@ $(document).ready(function(){
         
       $(this).parent().wrap($div);  
       var svg_clip='<svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path><rect x="8" y="2" width="8" height="4" rx="1" ry="1"></rect></svg>';
-      var button_style = "    color:#ffffff;cursor: pointer;display: flex;justify-content: flex-end;align-items: center;background-color:#137077;padding: 0.5rem 1rem ;width:100%; text-align:right;font-size: .75rem;line-height: 1rem;border-bottom-left-radius: 0.375rem;border-bottom-right-radius: 0.375rem;"
+      var button_style = "    color:#ffffff;cursor: pointer;display: flex;justify-content: flex-end;align-items: center;background-color:#173077;padding: 0.5rem 1rem ;width:100%; text-align:right;font-size: .75rem;line-height: 1rem;border-top-left-radius: 0rem;border-top-right-radius: 0rem;"
       var button_html = "<div class='kapow-copy-btn'  data-id='"+id+"' style='"+button_style+"'><span class='copy-icon' style='display:flex;'>"+svg_clip+"</span><span class='copy-text' style='padding-left:5px;'>Copy Code</span></div>";
       $('#'+id).append(button_html);
       
@@ -49,4 +49,3 @@ $(document).ready(function(){
     add_copy_btn();
   }
 })
-
