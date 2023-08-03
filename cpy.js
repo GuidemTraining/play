@@ -1,6 +1,3 @@
-<!-- HTML Structure -->
-<pre>/* Your code here */</pre>
-
 <script>
   // Helper function to create SVG icons
   function createSVG(icon) {
