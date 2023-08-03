@@ -1,10 +1,7 @@
-<!-- HTML Structure -->
-<preguidem>/* Your code here */</preguidem>
-
 <script>
   $(document).ready(function() {
     const addCopyButton = function() {
-      $("preguidem").each(function(index) {
+      $("div.fr-view > div").each(function(index) {
         const $codeBlock = $(this);
         const codeText = $codeBlock.text();
 
@@ -54,11 +51,3 @@
     if (typeof CoursePlayerV2 !== "undefined") {
       CoursePlayerV2.on("hooks:contentDidChange", function(data) {
         setTimeout(function() {
-          addCopyButton();
-        }, 1000);
-      });
-    } else {
-      addCopyButton();
-    }
-  });
-</script>
