@@ -1,10 +1,7 @@
-<!-- HTML Structure -->
-<pre>/* Your code here */</pre>
-
 <script>
   $(document).ready(function() {
     const addCopyButton = function() {
-      $("pre").each(function(index) {
+      $("preguidem").each(function(index) {
         const $codeBlock = $(this);
         const codeText = $codeBlock.text();
 
