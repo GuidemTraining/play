@@ -1,4 +1,3 @@
-<script>
   $(document).ready(function () {
     const add_copy_btn = function () {
       $("pre").each(function (index) {
